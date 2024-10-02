@@ -1,0 +1,19 @@
+{
+  "name": "playwright-yarn-esm-ts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "@types/node": "^22.7.4",
+    "allure-js-commons": "^3.0.3",
+    "allure-playwright": "^3.0.3"
+  },
+  "packageManager": "yarn@4.5.0"
+}
