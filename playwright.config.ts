@@ -1,14 +1,13 @@
-import type { PlaywrightTestConfig } from "@playwright/test";
-import { devices } from "@playwright/test";
+import { defineConfig, devices } from "@playwright/test";
 
-const config: PlaywrightTestConfig = {
+export default defineConfig({
   testDir: "./test",
   reporter: [
     ["list"],
     [
       "allure-playwright",
       {
-        outputFolder: "./out/allure-results",
+        resultsDir: "./out/allure-results",
         environmentInfo: {
           node_version: process.version,
         },
@@ -23,7 +22,4 @@ const config: PlaywrightTestConfig = {
       },
     },
   ],
-  outputDir: "test-results/",
-};
-
-export default config;
+});
