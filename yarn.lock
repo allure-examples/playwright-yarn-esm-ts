@@ -10,9 +10,9 @@ __metadata:
   resolution: "playwright-yarn-esm-ts@workspace:."
   dependencies:
     "@playwright/test": "npm:^1.30.0"
-    "@types/node": "npm:^22.7.4"
-    allure-js-commons: "npm:^3.0.4"
-    allure-playwright: "npm:^3.0.4"
+    "@types/node": "npm:^22.9.0"
+    allure-js-commons: "npm:^3.0.6"
+    allure-playwright: "npm:^3.0.6"
   languageName: unknown
   linkType: soft
 
@@ -60,22 +60,22 @@ __metadata:
   linkType: hard
 
 "@playwright/test@npm:^1.30.0":
-  version: 1.47.2
-  resolution: "@playwright/test@npm:1.47.2"
+  version: 1.48.2
+  resolution: "@playwright/test@npm:1.48.2"
   dependencies:
-    playwright: "npm:1.47.2"
+    playwright: "npm:1.48.2"
   bin:
     playwright: cli.js
-  checksum: 10c0/1b2b003fc5465608683835f287d5dba6fabe9a3339667579de33032f3527c5ada3894d021724167ecb1b172a7efa6155958deee9872b2b3e940c3337edd06b4b
+  checksum: 10c0/68bab3bee8d716111e9a166785e6c3c406b6a184fc46d03b5468fcbb92b6242e5628f6a75f9d286e2491ec0e9e59af67542a1f114b6659d790b5a1f41e4d305b
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.7.4":
-  version: 22.7.4
-  resolution: "@types/node@npm:22.7.4"
+"@types/node@npm:^22.9.0":
+  version: 22.9.0
+  resolution: "@types/node@npm:22.9.0"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/c22bf54515c78ff3170142c1e718b90e2a0003419dc2d55f79c9c9362edd590a6ab1450deb09ff6e1b32d1b4698da407930b16285e8be3a009ea6cd2695cac01
+    undici-types: "npm:~6.19.8"
+  checksum: 10c0/3f46cbe0a49bab4ba30494025e4c8a6e699b98ac922857aa1f0209ce11a1313ee46e6808b8f13fe5b8b960a9d7796b77c8d542ad4e9810e85ef897d5593b5d51
   languageName: node
   linkType: hard
 
@@ -105,28 +105,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"allure-js-commons@npm:3.0.4, allure-js-commons@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "allure-js-commons@npm:3.0.4"
+"allure-js-commons@npm:3.0.6, allure-js-commons@npm:^3.0.6":
+  version: 3.0.6
+  resolution: "allure-js-commons@npm:3.0.6"
   dependencies:
     md5: "npm:^2.3.0"
   peerDependencies:
-    allure-playwright: 3.0.4
+    allure-playwright: 3.0.6
   peerDependenciesMeta:
     allure-playwright:
       optional: true
-  checksum: 10c0/17204f3da0d742aed62ddc2c3a242decd5727fd158cb30d81005321b36d8237f8979b56ceec76abb3f2414051999d7bdb9bbdcefe1bf6a102b96681ff623e4bd
+  checksum: 10c0/e55d752ea630821c4895064be725f4c9069d8f9e462e6f65190b9645f7f41a1a4d1b25ea093378828ec74f681cca990c017561317307b1cbdfe67400b98aa044
   languageName: node
   linkType: hard
 
-"allure-playwright@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "allure-playwright@npm:3.0.4"
+"allure-playwright@npm:^3.0.6":
+  version: 3.0.6
+  resolution: "allure-playwright@npm:3.0.6"
   dependencies:
-    allure-js-commons: "npm:3.0.4"
+    allure-js-commons: "npm:3.0.6"
   peerDependencies:
     "@playwright/test": ">=1.36.0"
-  checksum: 10c0/8d593a8695208bf2a054520d9dda28d0822ccf3f9bb9290b8784912132affef0857e12a704ef7a2e5b53dcc1a760ac0daf0ad5382337afb1538917fba8b9c00c
+  checksum: 10c0/62ab4185d8b2f8124bad77c5d774f08d4dde0d5f56c0f0544775da6e5659b66afdce37fb062937348c8d272f89730b4f7924207b68907d1bb3d12eb20d3ac04a
   languageName: node
   linkType: hard
 
@@ -647,9 +647,9 @@ __metadata:
   linkType: hard
 
 "negotiator@npm:^0.6.3":
-  version: 0.6.3
-  resolution: "negotiator@npm:0.6.3"
-  checksum: 10c0/3ec9fd413e7bf071c937ae60d572bc67155262068ed522cf4b3be5edbe6ddf67d095ec03a3a14ebf8fc8e95f8e1d61be4869db0dbb0de696f6b837358bd43fc2
+  version: 0.6.4
+  resolution: "negotiator@npm:0.6.4"
+  checksum: 10c0/3e677139c7fb7628a6f36335bf11a885a62c21d5390204590a1a214a5631fcbe5ea74ef6a610b60afe84b4d975cbe0566a23f20ee17c77c73e74b80032108dea
   languageName: node
   linkType: hard
 
@@ -717,27 +717,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.47.2":
-  version: 1.47.2
-  resolution: "playwright-core@npm:1.47.2"
+"playwright-core@npm:1.48.2":
+  version: 1.48.2
+  resolution: "playwright-core@npm:1.48.2"
   bin:
     playwright-core: cli.js
-  checksum: 10c0/3426adf4448da71dc103e38484f711df93fad8620d825e470593629012db6772663ccdc7ccefcdb787fa0ee26dd81e84fdce8abd0bad01a4c4b0d13ff8837d3b
+  checksum: 10c0/511da53d9df01fec5e5798915c68e7d1574890a504d1aae05430bf538d0080efa8db86e3dafdcd450f084ce7622f6bbede23ca52e798bfc4c3b3ea8da52a51f5
   languageName: node
   linkType: hard
 
-"playwright@npm:1.47.2":
-  version: 1.47.2
-  resolution: "playwright@npm:1.47.2"
+"playwright@npm:1.48.2":
+  version: 1.48.2
+  resolution: "playwright@npm:1.48.2"
   dependencies:
     fsevents: "npm:2.3.2"
-    playwright-core: "npm:1.47.2"
+    playwright-core: "npm:1.48.2"
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     playwright: cli.js
-  checksum: 10c0/6477a6e8d7329375f0ac9dcdf5599e564987e413d0c57b2135bc91ea95acb877245395d6cc37034c12a7c0bafa609d24c78113dd49e9ced793ea2886f9133131
+  checksum: 10c0/ecde4ee4767556868b24d7700f3502692a3cb14c8ef127052b51b48833ffcce80942954fb188a9b72505122b48b1b625d1bb486721e1c4f2e980215328ba1ad5
   languageName: node
   linkType: hard
 
@@ -902,7 +902,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
+"undici-types@npm:~6.19.8":
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344

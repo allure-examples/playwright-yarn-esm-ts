@@ -11,9 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.30.0",
-    "@types/node": "^22.7.4",
-    "allure-js-commons": "^3.0.4",
-    "allure-playwright": "^3.0.4"
+    "@types/node": "^22.9.0",
+    "allure-js-commons": "^3.0.6",
+    "allure-playwright": "^3.0.6"
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.5.1"
 }
